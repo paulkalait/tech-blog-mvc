@@ -38,12 +38,12 @@ const postdata = [
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    post_url: 'Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.',
+    post_text: 'Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.Morbi non quam nec dui luctus rutrum.',
     user_id: 1
   },
   {
     title: 'Duis ac nibh.',
-    post_url: 'Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.',
+    post_text: 'Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.Duis ac nibh.',
     user_id: 9
   }
 ];
