@@ -8,7 +8,7 @@ const postdata = [
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-   post_text: 'https://nasa.gov/donec.json',
+   post_text: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
     user_id: 8
   },
   {
