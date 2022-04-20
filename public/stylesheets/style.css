@@ -24,7 +24,7 @@
   button {
     background-color: #225ca3;
     border: 0;
-    padding: 1%;
+    padding: .7%;
     color: white;
     font-weight: bold;
     transition: background-color .1s;
@@ -43,17 +43,24 @@
   
   textarea, input {
     padding: .5%;
-    border-radius: 5px;
     border: 1px solid #ccc;
   }
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 2px solid #3486eb;
+  }
+  #email-login, #password-login, #username-signup, #email-signup, #password-signup{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: lightgrey solid 1px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
   }
   
   textarea {
-    min-width: 30%;
+    min-width: 27%;
     min-height: 90px;
   }
   
@@ -80,6 +87,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
   }
   
   header h1 {
@@ -175,4 +187,9 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+  }
+
+  .title{
+    border-top:lightgrey solid 1px;
+    padding: 2px;
   }
