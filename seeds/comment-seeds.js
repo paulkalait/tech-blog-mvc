@@ -156,7 +156,7 @@ const commentdata = [
   {
     comment_text: 'Proin eu mi. Nulla ac enim.',
     user_id: 4,
-    post_id: 10
+    post_id: 8
   },
   {
     comment_text: 'Sed ante. Vivamus tortor.',
@@ -165,7 +165,7 @@ const commentdata = [
   },
   {
     comment_text: 'Aliquam quis turpis eget elit sodales scelerisque.',
-    user_id: 10,
+    user_id: 8,
     post_id: 1
   }
 ];
