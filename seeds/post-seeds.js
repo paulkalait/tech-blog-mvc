@@ -4,7 +4,7 @@ const postdata = [
   {
     title: 'Donec posuere metus vitae ipsum.',
    post_text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsum.',
-    user_id: 10
+    user_id: 9
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',

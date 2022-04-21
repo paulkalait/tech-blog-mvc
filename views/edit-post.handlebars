@@ -6,7 +6,7 @@
   <form class="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{post.post_text}})</span>
+      <textarea id="edit-postext">({{post.post_text}})</textarea>
     </div>
     <div>
       {{!-- {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}} --}}
@@ -18,15 +18,15 @@
   </form>
 </article>
 
-<form class="comment-form">
+{{!-- <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button id="add-comment" type="submit">add comment</button>
   </div>
-</form>
+</form> --}}
 
 {{> comments post.comments}}
 
