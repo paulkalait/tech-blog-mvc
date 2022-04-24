@@ -1,4 +1,4 @@
-# just_blog_mvc
+# tech_blog_mvc
   ![Badge](https://img.shields.io/badge/licence--blue)
 
    
