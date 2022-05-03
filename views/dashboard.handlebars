@@ -6,13 +6,23 @@
       <label for="post-title">Title</label>
       <input type="text" id="post-title" name="post-title" />
     </div>
+    {{!-- add photo --}}
+     <div>
+       <label class="custom-file-upload">
+          <input type="file"
+       id="selectFile" name="avatar"
+       accept="image/png, image/jpeg">Add photo
+       </label>
+    </div>
     <div>
       <label for="post-text">Text</label>
       <textarea name="post-text" id="post-text" cols="30" rows="10" placeholder="Say Anything..."></textarea>
     </div>
+   
     <button type="submit" class="btn">Post</button>
   </form>
 </section>
+
 
 {{#if posts.length}}
 <section>
